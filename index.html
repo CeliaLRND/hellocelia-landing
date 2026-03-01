@@ -3,92 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Célia | @hellocelia.fr - Tech, App & Bons Plans</title>
-    <meta name="description" content="Découvrez les projets de Célia, experte en Flutterflow, Tech et bons plans en Martinique. Guide offert pour créer votre app mobile.">
+    <title>Hello Célia — Tech, No-code & Martinique</title>
+    <meta name="description" content="Exploration de l'univers Tech, du No-code avec Flutterflow et partage de bons plans en Martinique par Célia.">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="container">
-        <div class="profile-header">
-            <img src="https://hellocelia.fr/wp-content/uploads/2023/12/cropped-Logo-Celia-192x192.png" alt="Célia Logo" class="avatar">
-            <h1>Célia <span class="handle">@hellocelia.fr</span></h1>
-            <p class="tagline">Martinique • Tech, App & Bons Plans | #WomenInTech</p>
+    <nav class="navbar">
+        <div class="nav-content">
+            <span class="logo">Hello Célia</span>
+            <div class="nav-links">
+                <a href="#projets">Projets</a>
+                <a href="#outils">Outils</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container-narrow">
+            <span class="eyebrow">Expertise No-code & Tech</span>
+            <h1>Construire des idées, une ligne de code (ou pas) à la fois.</h1>
+            <p class="hero-sub">Je m'appelle Célia. Je crée des applications mobiles avec Flutterflow et je partage mes découvertes tech depuis la Martinique.</p>
         </div>
     </header>
 
-    <main class="container">
-        
-        <section class="section">
-            <h2 class="section-title">Mes Projets</h2>
-            <div class="grid">
-                <article class="card">
-                    <span class="badge">2024</span>
-                    <h3>Live Tibwa</h3>
-                    <p class="tech-stack">Flutterflow + Custom Code</p>
-                    <p>Pratique du tambour bèlè au rythme du tibwa.</p>
+    <main>
+        <div class="container-narrow">
+            
+            <section id="projets" class="content-section">
+                <h2 class="section-label">Projets Sélectionnés</h2>
+                
+                <article class="project-item">
+                    <div class="project-meta">2024 — Flutterflow</div>
+                    <div class="project-body">
+                        <h3>Live Tibwa</h3>
+                        <p>Une application dédiée à la pratique du tambour bèlè, permettant de s'exercer au rythme du tibwa partout.</p>
+                    </div>
                 </article>
 
-                <article class="card">
-                    <span class="badge status-hold">2022 | On Hold</span>
-                    <h3>Noukajobé</h3>
-                    <p class="tech-stack">Bubble.io</p>
-                    <p>Mise en relation pour services et tâches du quotidien.</p>
+                <article class="project-item">
+                    <div class="project-meta">2022 — Bubble</div>
+                    <div class="project-body">
+                        <h3>Noukajobé</h3>
+                        <p>Plateforme de mise en relation pour les services de proximité et l'entraide quotidienne.</p>
+                    </div>
                 </article>
-            </div>
-        </section>
+            </section>
 
-        <section class="cta-box">
-            <div class="cta-content">
-                <h2>Envie de créer votre app ?</h2>
-                <p>Téléchargez mon guide gratuit : "Comment créer une app mobile en 2025"</p>
-                <a href="#" class="btn-primary">Recevoir le guide</a>
-            </div>
-        </section>
+            <section class="cta-section">
+                <div class="cta-card">
+                    <h2>Prêt à lancer votre application ?</h2>
+                    <p>Téléchargez mon guide gratuit pour transformer votre idée en MVP fonctionnel cette année.</p>
+                    <a href="#" class="main-button">Obtenir le guide →</a>
+                </div>
+            </section>
 
-        <section class="section">
-            <h2 class="section-title">Mes Favoris & Outils</h2>
-            <div class="links-list">
-                <a href="#" class="list-item">
-                    <div class="item-info">
-                        <strong>Flutterflow</strong>
-                        <span>Créer des apps sans coder</span>
-                    </div>
-                    <span class="arrow">→</span>
-                </a>
-                <a href="#" class="list-item">
-                    <div class="item-info">
-                        <strong>Carrd</strong>
-                        <span>Sites web ultra simples</span>
-                    </div>
-                    <span class="arrow">→</span>
-                </a>
-                <a href="#" class="list-item">
-                    <div class="item-info">
-                        <strong>Huel</strong>
-                        <span>Repas complets & nutrition</span>
-                    </div>
-                    <span class="arrow">→</span>
-                </a>
-                <a href="#" class="list-item">
-                    <div class="item-info">
-                        <strong>Vivo Barefoot</strong>
-                        <span>Le confort des pieds nus</span>
-                    </div>
-                    <span class="arrow">→</span>
-                </a>
-            </div>
-        </section>
+            <section id="outils" class="content-section">
+                <h2 class="section-label">Ressources & Favoris</h2>
+                <ul class="resource-list">
+                    <li><a href="#">Flutterflow <span>Visual App Building</span></a></li>
+                    <li><a href="#">Carrd <span>One-page sites</span></a></li>
+                    <li><a href="#">Huel <span>Fuel for Tech</span></a></li>
+                    <li><a href="#">Vivo Barefoot <span>Confort naturel</span></a></li>
+                </ul>
+            </section>
 
+        </div>
     </main>
 
-    <footer class="container">
-        <p>&copy; 2025 HELLOCELIA.FR</p>
+    <footer>
+        <div class="container-narrow">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <p>© 2025 hellocelia.fr</p>
+                </div>
+                <div class="footer-socials">
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
